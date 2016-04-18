@@ -53,6 +53,7 @@ class Home_page {
     const LIEN_HE = 12;
 }
 $page = new Home_page();
+$menu = wp_get_nav_menu_items(2, array());
 ?>
 <div id="wrapper">
 
@@ -99,10 +100,14 @@ $page = new Home_page();
             <nav id="navigation" class="menu-container">
                 <a href="#" class="nav-btn">Trang chủ<span class="arr"></span></a>
                 <ul class="menu" id="menu">
-                    <li><a class="menulink m-select" id="p_1" href="/">Trang chủ</a>
+                    <?php 
+                    foreach ($menu as $obj) {
+                       ?>
+                    <li><a class="menulink " id="p_1" href="/"><?php echo $obj->title;?></a>
                         <ul></ul>
                     </li>
-                    <li><a class="menulink" id="p_292" href="/gioi-thieu.htm">Giới thiệu</a>
+                    <?php } ?>
+<!--                    <li><a class="menulink m-select" id="p_292" href="/gioi-thieu.htm">Giới thiệu</a>
                         <ul>
                             <li><a class="sub" id="s_gioi-thieu-ve-cong-ty" href="/gioi-thieu-ve-cong-ty.htm"><span>Giới thiệu về công ty</span></a>
                             </li>
@@ -220,7 +225,7 @@ $page = new Home_page();
                     </li>
                     <li><a class="menulink" id="p_6" href="/Lien-he.htm">Liên hệ</a>
                         <ul></ul>
-                    </li>
+                    </li>-->
                 </ul>
                 <script type="text/javascript">
                     var menu = new menu.dd("menu");
