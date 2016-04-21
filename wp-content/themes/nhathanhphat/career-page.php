@@ -4,5 +4,9 @@ Template Name: Career
 */
 get_header();
 ?>
-        Tuyen dung
+
+        <div class="content-home-box">
+                <?php get_template_part('left-side-bar');
+                ?>
+        </div>
 <?php get_footer(); ?>

@@ -1,6 +1,10 @@
 <?php
 global $post;
 $post_slug=$post->post_name;
+if ($post->post_type != 'page') {
+    $post_slug = $post->post_type;
+}
+
 $post_slug = str_replace("-", "", $post_slug);
 $content = get_post_from_post_type(null, $post_slug);
 $news = get_post_from_post_type(null,'tintuc', 'post_date DESC', 6 );
