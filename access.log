@@ -10961,3 +10961,14 @@
 127.0.0.1 - - [21/Apr/2016:22:35:09 +0700] "GET /wp-content/themes/nhathanhphat/images/arr-ico.png HTTP/1.1" 304 -
 127.0.0.1 - - [21/Apr/2016:22:35:09 +0700] "GET /wp-content/themes/nhathanhphat/images/cols-shadow.png HTTP/1.1" 304 -
 127.0.0.1 - - [21/Apr/2016:22:35:09 +0700] "GET /wp-content/themes/nhathanhphat/images/h_arr_news.png HTTP/1.1" 304 -
+127.0.0.1 - - [21/Apr/2016:22:35:29 +0700] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+127.0.0.1 - - [21/Apr/2016:22:37:30 +0700] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+127.0.0.1 - - [21/Apr/2016:22:39:31 +0700] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+127.0.0.1 - - [21/Apr/2016:22:41:31 +0700] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+127.0.0.1 - - [21/Apr/2016:22:43:32 +0700] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+127.0.0.1 - - [21/Apr/2016:22:45:32 +0700] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+127.0.0.1 - - [21/Apr/2016:22:47:32 +0700] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+127.0.0.1 - - [21/Apr/2016:22:49:32 +0700] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+127.0.0.1 - - [21/Apr/2016:22:51:32 +0700] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+127.0.0.1 - - [21/Apr/2016:22:53:32 +0700] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+127.0.0.1 - - [21/Apr/2016:22:55:32 +0700] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
