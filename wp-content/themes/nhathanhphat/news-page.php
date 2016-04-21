@@ -4,5 +4,9 @@ Template Name: News
 */
 get_header();
 ?>
-        Tin tuc
+
+    <div class="content-home-box">
+        <?php get_template_part('left-side-bar');
+        ?>
+    </div>
 <?php get_footer(); ?>

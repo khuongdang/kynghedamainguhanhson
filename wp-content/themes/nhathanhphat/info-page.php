@@ -4,5 +4,9 @@ Template Name: Info
 */
 get_header();
 ?>
-        Gioi thieu
+
+    <div class="content-home-box">
+        <?php get_template_part('left-side-bar');
+        ?>
+    </div>
 <?php get_footer(); ?>

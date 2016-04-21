@@ -4,5 +4,9 @@ Template Name: Product
 */
 get_header();
 ?>
-        San pham
+
+        <div class="content-home-box">
+                <?php get_template_part('left-side-bar');
+                ?>
+        </div>
 <?php get_footer(); ?>
