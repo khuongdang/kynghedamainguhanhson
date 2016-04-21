@@ -59,8 +59,8 @@ class Home_page
 
     public function __construct()
     {
-        $this->hotline = get_option('hotline');
-        $this->email = get_option('email');
+    $this->hotline           = get_option('hotline');
+        $this->email         = get_option('email');
         $this->facebook_link = get_option('facebook_url');
     }
 
@@ -121,9 +121,49 @@ $page = new Home_page();
                     <?php
                     foreach ($page::getMenuItems() as $obj) {
                         $link = $obj->url;
+                        switch ($obj->ID) {
+                            case "23" :
+                                $sub_content = get_post_from_post_type(null,'gioi-thieu');
+                            break;
+                            case "26" : //san pham
+                                $taxonomy = 'danh-muc-san-pham';
+                                $sub_content = $terms = get_terms($taxonomy, array(
+                                    'hide_empty' => 0,
+                                ) );
+                            break;
+                            case "34" : // co dau to chuc
+                                $sub_content = null;
+                            break;
+                            case "31" : // tin tuc
+                                $sub_content = null;
+                                break;
+                            case "37" : //tuyen dung
+                                $sub_content = get_post_from_post_type(null,'tuyen-dung');
+                            break;
+                            default:
+                                $sub_content = null;
+                            break;
+                        }
                         ?>
                         <li><a class="menulink " id="p_1" href="<?php echo $link;?>"><?php echo $obj->title; ?></a>
-                            <ul></ul>
+                            <?php
+                            if(!empty($sub_content)) {
+                            ?>
+                            <ul>
+                                <?php foreach($sub_content as $obj) {
+                                    if (isset($obj->post_title)){
+                                        $title = $obj->post_title;
+                                    }
+                                    if (isset($obj->name)){
+                                        $title = $obj->name;
+                                    }
+
+                                ?>
+                                <li><a class="sub" title="<?php echo $title;?>"  href="/gioi-thieu-ve-cong-ty.htm"><span><?php echo $title;?></span></a>
+                                </li>
+                                    <?php }?>
+                            </ul>
+                            <?php }?>
                         </li>
                     <?php } ?>
                     <!--                    <li><a class="menulink m-select" id="p_292" href="/gioi-thieu.htm">Giới thiệu</a>

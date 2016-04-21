@@ -101,6 +101,7 @@ function theme_settings_page()
 
 function display_hotline_element()
 {
+
     ?>
     <input type="text" name="hotline" id="hotline" value="<?php echo get_option('hotline'); ?>"/>
     <?php
@@ -135,6 +136,16 @@ function logo_display()
     <?php
 }
 
+function footer_display()
+{
+    $settings = array(
+        'teeny'         => true,
+        'textarea_rows' => 15,
+        'tabindex'      => 1
+    );
+    wp_editor(esc_html( __(get_option('footer_content'))), 'footer_content', $settings);
+}
+
 function handle_logo_upload()
 {
     if (!empty($_FILES["demo-file"]["tmp_name"])) {
@@ -154,13 +165,46 @@ function display_theme_panel_fields()
     add_settings_field("facebook_url", "Facebook Profile Url", "display_facebook_element", "theme-options", "section");
     add_settings_field("theme_layout", "Do you want the layout to be responsive?", "display_layout_element", "theme-options", "section");
     add_settings_field("logo", "Logo", "logo_display", "theme-options", "section");
+    add_settings_field("footer_content", "Footer Content", "footer_display", "theme-options", "section");
 
     register_setting("section", "hotline");
     register_setting("section", "email");
     register_setting("section", "facebook_url");
     register_setting("section", "theme_layout");
     register_setting("section", "logo", "handle_logo_upload");
+    register_setting("section", "footer_content");
 }
 
 add_action("admin_init", "display_theme_panel_fields");
+
+function get_post_from_post_type($id_post = '', $post_type = '', $order = '', $limit = '', $page = '') {
+    global $wpdb;
+    if (!empty($id_post)) {
+        $sql = "Select * from $wpdb->posts where post_type = '" . $post_type . "' and post_status = 'publish' and id != $id_post";
+        if (isset($order) && !empty($order)) {
+            $sql.=" order by $order";
+        }
+        if (isset($limit) && !empty($limit) && empty($page)) {
+            $sql.=" limit 0, $limit";
+        }
+    } else {
+        $sql = "Select * from $wpdb->posts where post_type = '" . $post_type . "' and post_status = 'publish'";
+        if (isset($order) && !empty($order)) {
+            $sql.=" order by $order";
+        }
+        if (!empty($page) && isset($page)) {
+            $sql .= " LIMIT " . ( ( $page - 1 ) * $limit ) . ", $limit";
+        }
+        if (isset($limit) && !empty($limit)) {
+            $sql.=" limit 0, $limit";
+        }
+    }
+    $items = $wpdb->get_results($sql);
+
+    return $items;
+}
+
+
+
+
 

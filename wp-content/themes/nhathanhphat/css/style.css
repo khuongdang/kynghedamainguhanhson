@@ -366,7 +366,7 @@ border-radius: 5px;
 .top-h1-content { float:right; clear:right; padding-top:5px; }
 .top-h1-content h1{ font-size:12px; }
 /*giai thuong left*/
-.left-head.gt{ clear:both; padding:8px 0px; margin:0px 0px 0px 0px; }
+.left-head.gt{ clear:both; padding:8px 0px; margin:0px 0px 0px 25px; }
 .left-head.gt span{ border:none; }
 .gt-left-item{ float:left; margin:6px 4px; }
 .gt-left-item img{ width:85px; height:85px; }
