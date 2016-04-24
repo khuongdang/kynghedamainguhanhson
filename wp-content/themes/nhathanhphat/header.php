@@ -158,7 +158,9 @@ $page = new Home_page();
                                     if (isset($obj->name)){
                                         $title = $obj->name;
                                     }
-
+                                    if($obj->term_id) {
+                                        $link = get_term_link($obj->term_id);
+                                    }
                                 ?>
                                 <li><a class="sub" title="<?php echo $title;?>"  href="<?php echo $link;?>"><span><?php echo $title;?></span></a>
                                 </li>
