@@ -1,8 +1,8 @@
-﻿.news-list-row{ width:100%; clear:both; height:106px; padding:15px 0px 15px 0px; border-bottom:1px dotted #ccc; }
-.news-list-img-item{ padding:1px; border:1px solid #e3e3e3; width:138px; height:87px; }
-.news-l-image{ width:151px; height:93px; float:left; }
-.news-l-image img{width:138px; height:87px; border:0px solid #939393; }
-.news-l-content{ width:512px; float:left; }
+﻿.news-list-row{ width:100%; clear:both; height:106px; padding:15px 0px 25px 0px; border-bottom:1px dotted #ccc; }
+.news-list-img-item{ padding:1px; border:1px solid #e3e3e3; height:125px; }
+.news-l-image{  height:93px; float:left; margin-right: 10px }
+.news-l-image img{height:125px; border:0px solid #939393; }
+.news-l-content{ width:100%; float:left; }
 .news-l-content.full{ width:100%; }
 .news-l-c-title { padding:0px 0px 3px 0px; clear:both; font-weight:normal; font-size:13px; }
 .news-l-c-title-date{ font-size:12px; font-weight:normal; padding:4px 0px 0px 0px; font-style:normal; }
@@ -10,7 +10,7 @@
 .news-l-c-NewsDepict.info{ padding:4px 0px 4px 0px; }
 .news-l-more{ clear:both; padding:0px 0px 0px 0px; text-align:right; }
 .news-l-more.info{ padding:2px 0px 0px 0px; }
-.news-l-more-arrow{ background:url(../Images/arr_title_sub.png) no-repeat right 3px; padding:0px 12px 0px 0px; font-size:10px; font-weight:bold; color:#D90200; }
+.news-l-more-arrow{ background:url(../Images/arr_title_sub.png) no-repeat right 3px; padding:0px 12px 0px 0px; font-size:11px; font-weight:bold; color:#D90200; }
 
 .c-date-create-detail{ font-style:italic; font-size:12px; padding:0px 0px 6px 0px; }
 .content-name-detail{ font-size:17px; font-weight:normal; padding:8px 0px 0px 0px; }
@@ -24,3 +24,12 @@
 .date-detail-news-f{ font-style:normal; font-size:12px; }
 .title-news-list{ color:#1C81AF; font-weight:bold; }
 .title-news-list:hover{ color:#D90200; }
+.news-list-row a {
+    color:#666;
+}
+table.news {width:100%;}
+table.news td:first-child {width:10%;}
+table.news td {vertical-align: top;}
+table.news  tr{
+    height:150px;}
+.news-title a{color:#999;}

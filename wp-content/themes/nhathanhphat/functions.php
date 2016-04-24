@@ -204,6 +204,31 @@ function get_post_from_post_type($id_post = '', $post_type = '', $order = '', $l
     return $items;
 }
 
+function get_post_content($content = null) {
+    if (!empty($content)) {
+        $content = apply_filters('the_content', $content);
+        $content = str_replace(']]>', ']]&gt;', $content);
+        return $content;
+    }
+    return null;
+}
+
+function get_post_from_post_type_and_meta_value($value = '', $post_type = null) {
+    if (isset($value)) {
+        $args = array(
+            'numberposts' => -1,
+            'post_type' => $post_type,
+            'meta_query' => array(
+                array(
+                    'key' => $value
+                )
+            )
+        );
+// get results
+        $the_query = new WP_Query($args);
+        return $the_query->posts;
+    }
+}
 
 
 

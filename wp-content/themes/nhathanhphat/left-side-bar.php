@@ -4,7 +4,6 @@ $post_slug=$post->post_name;
 if ($post->post_type != 'page') {
     $post_slug = $post->post_type;
 }
-
 $post_slug = str_replace("-", "", $post_slug);
 $content = get_post_from_post_type(null, $post_slug);
 $news = get_post_from_post_type(null,'tintuc', 'post_date DESC', 6 );
@@ -27,7 +26,6 @@ $news = get_post_from_post_type(null,'tintuc', 'post_date DESC', 6 );
     <div class="hotline-left"><a title="Hotline" href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/hotline.jpg"
                                                                               width="" height="" border="0"
                                                                               alt="Hotline"></a></div>
-
 
     <div class="left-head"><span>Tin nhiều người đọc</span></div>
     <ul class="left-news">

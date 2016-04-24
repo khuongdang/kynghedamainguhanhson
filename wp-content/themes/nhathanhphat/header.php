@@ -123,7 +123,7 @@ $page = new Home_page();
                         $link = $obj->url;
                         switch ($obj->ID) {
                             case "23" :
-                                $sub_content = get_post_from_post_type(null,'gioi-thieu');
+                                $sub_content = get_post_from_post_type(null,'gioithieu', null, 6);
                             break;
                             case "26" : //san pham
                                 $taxonomy = 'danh-muc-san-pham';
@@ -138,7 +138,7 @@ $page = new Home_page();
                                 $sub_content = null;
                                 break;
                             case "37" : //tuyen dung
-                                $sub_content = get_post_from_post_type(null,'tuyen-dung');
+                                $sub_content = get_post_from_post_type(null,'tuyendung', null, 6);
                             break;
                             default:
                                 $sub_content = null;
@@ -151,6 +151,7 @@ $page = new Home_page();
                             ?>
                             <ul>
                                 <?php foreach($sub_content as $obj) {
+                                    $link = get_permalink($obj->ID);
                                     if (isset($obj->post_title)){
                                         $title = $obj->post_title;
                                     }
@@ -159,7 +160,7 @@ $page = new Home_page();
                                     }
 
                                 ?>
-                                <li><a class="sub" title="<?php echo $title;?>"  href="/gioi-thieu-ve-cong-ty.htm"><span><?php echo $title;?></span></a>
+                                <li><a class="sub" title="<?php echo $title;?>"  href="<?php echo $link;?>"><span><?php echo $title;?></span></a>
                                 </li>
                                     <?php }?>
                             </ul>
