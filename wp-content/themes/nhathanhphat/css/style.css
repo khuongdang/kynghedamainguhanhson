@@ -2,6 +2,16 @@
 body, html { height: 100%; }
 body {font-size:12px; line-height:22px; font-family:arial, sans-serif; color:#828282; min-width:100%; }
 
+@font-face {
+    font-family: UVNhonghahep;
+    src: url(../font/UVNHongHaHep_R.TTF);
+}
+@font-face {
+    font-family: UVNhonghahepB;
+    src: url(../font/UVNHongHaHep_B.TTF);
+}
+
+
 a { color: #1e1e1e; text-decoration: none; cursor: pointer; }
 a:hover { text-decoration: underline; }
 a img { border: 0; }

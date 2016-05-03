@@ -230,6 +230,65 @@ function get_post_from_post_type_and_meta_value($value = '', $post_type = null) 
     }
 }
 
+function trimstr($string, $length = 25, $method = 'WORDS', $pattern = '...') {
 
+    if (!is_numeric($length)) {
+        $length = 25;
+    }
+
+    if (strlen($string) <= $length) {
+        return rtrim($string) . $pattern;
+    }
+
+    $truncate = substr($string, 0, $length);
+
+    if ($method != 'WORDS') {
+        return rtrim($truncate) . $pattern;
+    }
+
+    if ($truncate[$length - 1] == ' ') {
+        return rtrim($truncate) . $pattern;
+    }
+// we got ' ' right where we want it
+
+    $pos = strrpos($truncate, ' ');
+// lets find nearest right ' ' in the truncated string
+
+    if (!$pos) {
+        return $pattern;
+    }
+// no ' ' (one word) or it resides at the very begining
+// of the string so the whole string goes to the toilet
+
+    return rtrim(substr($truncate, 0, $pos)) . $pattern;
+// profit
+}
+
+function get_product_categories_parent($taxonomy = '') {
+    if (!empty($taxonomy)) {
+        $categories = get_terms($taxonomy, 'parent=0&hide_empty=0');
+        if (!empty($categories)) {
+            return $categories;
+        }
+    }
+}
+
+function get_posts_from_category($category = '') {
+    if (!empty($category) && is_numeric($category)) {
+        $args = array('category' => $category);
+        $list_posts = get_posts($args);
+        return $list_posts;
+    }
+    return array();
+}
+function get_post_content_from_id($id=''){
+    if(!empty($id)){
+        $content_post = get_post($id);
+        $content = $content_post->post_content;
+        $content = apply_filters('the_content', $content);
+        $content = str_replace(']]>', ']]&gt;', $content);
+        return $content;
+    }
+}
 
 
