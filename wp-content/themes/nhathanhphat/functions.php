@@ -273,22 +273,17 @@ function get_product_categories_parent($taxonomy = '') {
     }
 }
 
-function get_posts_from_category($category = '') {
-    if (!empty($category) && is_numeric($category)) {
-        $args = array('category' => $category);
-        $list_posts = get_posts($args);
-        return $list_posts;
-    }
-    return array();
+function get_post_from_taxonomy($post_type, $taxonomy = 'category', $term_id){
+    $result = get_posts(array(
+            'numberposts' => -1,
+            'post_type' => $post_type,
+            'tax_query' => array(
+                array(
+                    'taxonomy' => $taxonomy,
+                    'field' => 'term_id',
+                    'terms' => $term_id)
+            ))
+    );
+    return $result;
 }
-function get_post_content_from_id($id=''){
-    if(!empty($id)){
-        $content_post = get_post($id);
-        $content = $content_post->post_content;
-        $content = apply_filters('the_content', $content);
-        $content = str_replace(']]>', ']]&gt;', $content);
-        return $content;
-    }
-}
-
 

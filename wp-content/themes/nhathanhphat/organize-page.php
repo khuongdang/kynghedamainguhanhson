@@ -41,7 +41,7 @@ $content = get_post_from_post_type(null, 'cocautochuc');
                                                                                 <div class="news-l-c-NewsDepict">
                                                                                         &nbsp;<?php echo get_post_content($content); ?></div>
                                                                                 <div class="news-l-more"><a class="news-l-more-arrow"
-                                                                                                            href="/tu-van-doanh-nghiep/dieu-kien-va-thu-tuc-chuyen-nhuong-von-cong-ty-co-phan.htm">Chi
+                                                                                                            href="<?php echo $link; ?>">Chi
                                                                                                 tiết</a></div>
                                                                         </div>
                                                                 </td>

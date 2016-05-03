@@ -2,68 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6c797c7-f77d-4d4a-89bd-7981db3b37c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/realestate-page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/access.log" afterPath="$PROJECT_DIR$/access.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.html" afterPath="$PROJECT_DIR$/readme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/about.php" afterPath="$PROJECT_DIR$/wp-admin/about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/themes-rtl.css" afterPath="$PROJECT_DIR$/wp-admin/css/themes-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/themes-rtl.min.css" afterPath="$PROJECT_DIR$/wp-admin/css/themes-rtl.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/themes.css" afterPath="$PROJECT_DIR$/wp-admin/css/themes.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/themes.min.css" afterPath="$PROJECT_DIR$/wp-admin/css/themes.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/ajax-actions.php" afterPath="$PROJECT_DIR$/wp-admin/includes/ajax-actions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/misc.php" afterPath="$PROJECT_DIR$/wp-admin/includes/misc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/actions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/actions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/comment/excerpt.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/comment/excerpt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/custom-field.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/custom-field.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/link/notes.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/link/notes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/media/full-path.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/media/full-path.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/post/before-moretag.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/post/before-moretag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/post/comment-count.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/post/comment-count.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/post/content.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/post/content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/post/estimated-reading-time.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/post/estimated-reading-time.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/post/excerpt.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/post/excerpt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/post/permalink.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/post/permalink.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/used-by-menu.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/used-by-menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/user/description.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/user/description.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/user/post-count.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/user/post-count.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/user/registered.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/column/user/registered.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/storage_model.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/classes/storage_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/codepress-admin-columns.php" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/codepress-admin-columns.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/languages/codepress-admin-columns.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/languages/codepress-admin-columns.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/codepress-admin-columns/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/archive.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/news.css" afterPath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/news.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/info-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/info-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/left-side-bar.php" afterPath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/left-side-bar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/news-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/news-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/organize-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/organize-page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/product-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/nhathanhphat/product-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-image-editor-imagick.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-image-editor-imagick.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/feed.php" afterPath="$PROJECT_DIR$/wp-includes/feed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/formatting.php" afterPath="$PROJECT_DIR$/wp-includes/formatting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/functions.php" afterPath="$PROJECT_DIR$/wp-includes/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/fullscreen/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/fullscreen/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/fullscreen/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/fullscreen/plugin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/media/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/media/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/media/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/media/plugin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/textcolor/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/textcolor/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/textcolor/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/textcolor/plugin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/skin.ie7.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/skin.min.css" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/skin.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/tiny_mce_popup.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/tiny_mce_popup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/tinymce.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.js" afterPath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/post-template.php" afterPath="$PROJECT_DIR$/wp-includes/post-template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/version.php" afterPath="$PROJECT_DIR$/wp-includes/version.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/wp-db.php" afterPath="$PROJECT_DIR$/wp-includes/wp-db.php" />
     </list>
     <ignored path="kynghedamainguhanhson.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,16 +48,23 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2737">
-              <caret line="161" column="77" selection-start-line="161" selection-start-column="77" selection-end-line="161" selection-end-column="77" />
+            <state relative-caret-position="272">
+              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="68" selection-end-column="34" />
               <folding>
-                <marker date="1461465758766" expanded="true" signature="8670:8732" placeholder="..." />
-                <marker date="1461465758766" expanded="true" signature="10094:10156" placeholder="..." />
-                <marker date="1461465758766" expanded="true" signature="12476:12538" placeholder="..." />
-                <marker date="1461465758766" expanded="true" signature="15066:15128" placeholder="..." />
-                <marker date="1461465758766" expanded="true" signature="17246:17308" placeholder="..." />
-                <marker date="1461465758766" expanded="true" signature="18992:19054" placeholder="..." />
-                <marker date="1461465758766" expanded="true" signature="20948:20984" placeholder="..." />
+                <marker date="1462270526439" expanded="true" signature="8979:9015" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+              <folding>
+                <marker date="1462270638444" expanded="true" signature="4483:4517" placeholder="..." />
+                <marker date="1462270638444" expanded="true" signature="4857:4890" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -116,9 +73,11 @@
       <file leaf-file-name="product-page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/product-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="95" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
-              <folding />
+            <state relative-caret-position="-62">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding>
+                <element signature="e#324#350#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,7 +85,7 @@
       <file leaf-file-name="categories-images.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/categories-images/categories-images.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="2856">
               <caret line="177" column="29" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="29" />
               <folding>
                 <marker date="1457622334000" expanded="true" signature="1435:1862" placeholder="..." />
@@ -172,8 +131,8 @@
       <file leaf-file-name="organize-page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/organize-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            <state relative-caret-position="731">
+              <caret line="43" column="134" selection-start-line="43" selection-start-column="134" selection-end-line="43" selection-end-column="134" />
               <folding />
             </state>
           </provider>
@@ -184,16 +143,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="taxonomy.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/taxonomy.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78302">
-              <caret line="4611" column="29" selection-start-line="4611" selection-start-column="29" selection-end-line="4611" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -219,12 +168,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="archive.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="23" column="26" selection-start-line="17" selection-start-column="12" selection-end-line="23" selection-end-column="26" />
+              <folding>
+                <marker date="1462268066155" expanded="true" signature="1536:1651" placeholder="..." />
+                <marker date="1462268066155" expanded="true" signature="1599:1651" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -232,8 +184,8 @@
       <file leaf-file-name="news-page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/news-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="476">
+              <caret line="43" column="94" selection-start-line="43" selection-start-column="94" selection-end-line="43" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -242,8 +194,8 @@
       <file leaf-file-name="info-page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/info-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="363">
+              <caret line="43" column="94" selection-start-line="43" selection-start-column="94" selection-end-line="43" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -252,9 +204,11 @@
       <file leaf-file-name="career-page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/career-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="54" />
-              <folding />
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="54" selection-end-column="10" />
+              <folding>
+                <element signature="e#152#2947#0#HTML" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -262,8 +216,8 @@
       <file leaf-file-name="news.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/news.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -272,8 +226,18 @@
       <file leaf-file-name="left-side-bar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/left-side-bar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="-746">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="realestate-page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/realestate-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="43" column="94" selection-start-line="43" selection-start-column="94" selection-end-line="43" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -307,6 +271,7 @@
             <state relative-caret-position="1819">
               <caret line="112" column="96" selection-start-line="112" selection-start-column="96" selection-end-line="112" selection-end-column="96" />
               <folding>
+                <element signature="e#6#99#0#PHP" expanded="false" />
                 <marker date="1460950593891" expanded="true" signature="51927:51975" placeholder="SELECT p.ID ${$wpdb-&gt;posts}" />
                 <marker date="1460950593891" expanded="true" signature="79439:79526" placeholder="..." />
               </folding>
@@ -317,11 +282,11 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="275" column="32" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="32" />
+            <state relative-caret-position="329">
+              <caret line="275" column="31" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="31" />
               <folding>
-                <marker date="1462242756786" expanded="true" signature="5274:5378" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
-                <marker date="1462242756786" expanded="true" signature="5624:5717" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+                <marker date="1462267401456" expanded="true" signature="5274:5378" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+                <marker date="1462267401456" expanded="true" signature="5624:5717" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
               </folding>
             </state>
           </provider>
@@ -350,25 +315,26 @@
         <option value="$PROJECT_DIR$/wp-content/themes/blankslate/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/nav.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/contact-page.php" />
         <option value="$PROJECT_DIR$/wp-includes/nav-menu.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/wp-includes/taxonomy.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/left-side-bar.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/career-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/news-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/info-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/organize-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/single.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/flexslider.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/product-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/news.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/archive.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/news.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/product-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/left-side-bar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/realestate-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/info-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/news-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/organize-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/nhathanhphat/footer.php" />
       </list>
     </option>
   </component>
@@ -486,24 +452,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kynghedamainguhanhson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kynghedamainguhanhson" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -515,13 +463,13 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\ROOT\kynghedamainguhanhson\wp-content\themes\nhathanhphat\css\images" />
-      <recent name="E:\ROOT\kynghedamainguhanhson\wp-content\themes\nhathanhphat\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\ROOT\kynghedamainguhanhson\wp-content\themes\nhathanhphat" />
       <recent name="E:\ROOT\kynghedamainguhanhson\wp-content\themes\nhathanhphat\js" />
+      <recent name="E:\ROOT\kynghedamainguhanhson\wp-content\themes\nhathanhphat\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ROOT\kynghedamainguhanhson\wp-content\themes\nhathanhphat\css\images" />
       <recent name="E:\ROOT\kynghedamainguhanhson\wp-content\themes\nhathanhphat\css" />
     </key>
   </component>
@@ -577,7 +525,8 @@
       <workItem from="1461376574661" duration="4571000" />
       <workItem from="1461410681066" duration="7116000" />
       <workItem from="1462238938915" duration="81000" />
-      <workItem from="1462239044387" duration="3793000" />
+      <workItem from="1462239044387" duration="3911000" />
+      <workItem from="1462265799784" duration="5405000" />
     </task>
     <task id="LOCAL-00001" summary="Update new code">
       <created>1461256591060</created>
@@ -597,11 +546,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43333000" />
+    <option name="totallyTimeSpent" value="48856000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -656,22 +605,52 @@
         <state relative-caret-position="2737">
           <caret line="161" column="77" selection-start-line="161" selection-start-column="77" selection-end-line="161" selection-end-column="77" />
           <folding>
-            <marker date="1461465758766" expanded="true" signature="8670:8732" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="10094:10156" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="12476:12538" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="15066:15128" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="17246:17308" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="18992:19054" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="20948:20984" placeholder="..." />
+            <marker date="1462270526439" expanded="true" signature="8979:9015" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/product-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="374">
+          <caret line="22" column="95" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
+          <folding>
+            <element signature="e#324#350#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/categories-images/categories-images.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2856">
+          <caret line="177" column="29" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="29" />
+          <folding>
+            <marker date="1457622334000" expanded="true" signature="1435:1862" placeholder="..." />
+            <marker date="1457622334000" expanded="true" signature="2101:2379" placeholder="..." />
+            <marker date="1457622334000" expanded="true" signature="2820:3366" placeholder="..." />
+            <marker date="1457622334000" expanded="true" signature="2940:3359" placeholder="..." />
+            <marker date="1457622334000" expanded="true" signature="3478:5700" placeholder="..." />
+            <marker date="1457622334000" expanded="true" signature="3520:5688" placeholder="{...}" />
+            <marker date="1457622334000" expanded="true" signature="3644:4469" placeholder="{...}" />
+            <marker date="1457622334000" expanded="true" signature="3722:4360" placeholder="{...}" />
+            <marker date="1457622334000" expanded="true" signature="3769:3811" placeholder="{...}" />
+            <marker date="1457622334000" expanded="true" signature="3873:4333" placeholder="{...}" />
+            <marker date="1457622334000" expanded="true" signature="4071:4255" placeholder="{...}" />
+            <marker date="1457622334000" expanded="true" signature="4370:4464" placeholder="{...}" />
+            <marker date="1457622334000" expanded="true" signature="4524:4813" placeholder="{...}" />
+            <marker date="1457622334000" expanded="true" signature="4850:5232" placeholder="{...}" />
+            <marker date="1457622334000" expanded="true" signature="4895:5227" placeholder="{...}" />
+            <marker date="1457622334000" expanded="true" signature="5010:5153" placeholder="{...}" />
+            <marker date="1457622334000" expanded="true" signature="5274:5679" placeholder="{...}" />
+            <marker date="1457622334000" expanded="true" signature="5454:5532" placeholder="{...}" />
+            <marker date="1457622334000" expanded="true" signature="5538:5613" placeholder="{...}" />
+            <marker date="1457622334000" expanded="true" signature="6159:6202" placeholder="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1457622334000" expanded="true" signature="7377:7897" placeholder="..." />
+            <marker date="1457622334000" expanded="true" signature="7415:7884" placeholder="..." />
+            <marker date="1457622334000" expanded="true" signature="7426:7875" placeholder="..." />
+            <marker date="1457622334000" expanded="true" signature="7633:7863" placeholder="..." />
+            <marker date="1457622334000" expanded="true" signature="8831:8847" placeholder="Insert into Post... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -703,7 +682,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78302">
           <caret line="4611" column="29" selection-start-line="4611" selection-start-column="29" selection-end-line="4611" selection-end-column="29" />
-          <folding />
+          <folding>
+            <marker date="1460950594156" expanded="true" signature="29235:29462" placeholder="SELECT tr.ob... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="36719:36841" placeholder="SELECT t.*, ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="61708:61785" placeholder="SELECT ${$di... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="70517:70560" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="70580:70711" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="71639:71808" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="71905:72079" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="72171:72231" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="72318:72383" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="83964:84040" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="85133:85208" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="86004:86058" placeholder="SELECT meta_... ${$wpdb-&gt;termmeta}" />
+            <marker date="1460950594156" expanded="true" signature="86685:86745" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="93935:94169" placeholder="SELECT ${$se... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="95377:95602" placeholder="SELECT tr.te... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="101788:101816" placeholder="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="104281:104436" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="105129:105358" placeholder="SELECT t.ter... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="109511:109612" placeholder="SELECT term_... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="110598:110717" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="111368:111539" placeholder="INSERT INTO ${$wpdb-&gt;term_relationships}... " />
+            <marker date="1460950594156" expanded="true" signature="114313:114408" placeholder="DELETE FROM " />
+            <marker date="1460950594156" expanded="true" signature="117343:117406" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="117472:117517" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="117689:117734" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="121427:121455" placeholder="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="122743:122898" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="124542:124617" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="131414:131500" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="139721:139988" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="142126:142460" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="142325:142387" placeholder="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1460950594156" expanded="true" signature="142550:142785" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="143634:143708" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="146037:146133" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="146493:146561" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="146826:146877" placeholder="SELECT t.* F... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="147584:147646" placeholder="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="147729:147814" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="148448:148508" placeholder="SELECT taxon... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="149221:149418" placeholder="SELECT tt.te... $" />
+            <marker date="1460950594156" expanded="true" signature="151122:151320" placeholder="SELECT tt.te... $" />
+            <marker date="1460950594156" expanded="true" signature="152049:152125" placeholder="SELECT * FRO... $" />
+            <marker date="1460950594156" expanded="true" signature="155168:155570" placeholder="SELECT m1.po... $" />
+            <marker date="1460950594156" expanded="true" signature="158254:158314" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -727,7 +752,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1462268066155" expanded="true" signature="1536:1651" placeholder="..." />
+            <marker date="1462268066155" expanded="true" signature="1599:1651" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -749,16 +777,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/career-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="54" />
+          <folding>
+            <element signature="e#152#2947#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/news.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="748">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -773,8 +803,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6256">
-          <caret line="368" column="65" selection-start-line="368" selection-start-column="65" selection-end-line="368" selection-end-column="65" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -794,6 +824,7 @@
         <state relative-caret-position="1819">
           <caret line="112" column="96" selection-start-line="112" selection-start-column="96" selection-end-line="112" selection-end-column="96" />
           <folding>
+            <element signature="e#6#99#0#PHP" expanded="false" />
             <marker date="1460950593891" expanded="true" signature="51927:51975" placeholder="SELECT p.ID ${$wpdb-&gt;posts}" />
             <marker date="1460950593891" expanded="true" signature="79439:79526" placeholder="..." />
           </folding>
@@ -802,11 +833,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3757">
-          <caret line="221" column="22" selection-start-line="221" selection-start-column="22" selection-end-line="221" selection-end-column="22" />
+        <state relative-caret-position="4675">
+          <caret line="275" column="32" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="32" />
           <folding>
-            <marker date="1462242756786" expanded="true" signature="5274:5378" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
-            <marker date="1462242756786" expanded="true" signature="5624:5717" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+            <marker date="1462267401456" expanded="true" signature="5274:5378" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+            <marker date="1462267401456" expanded="true" signature="5624:5717" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
           </folding>
         </state>
       </provider>
@@ -824,13 +855,7 @@
         <state relative-caret-position="2737">
           <caret line="161" column="77" selection-start-line="161" selection-start-column="77" selection-end-line="161" selection-end-column="77" />
           <folding>
-            <marker date="1461465758766" expanded="true" signature="8670:8732" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="10094:10156" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="12476:12538" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="15066:15128" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="17246:17308" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="18992:19054" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="20948:20984" placeholder="..." />
+            <marker date="1462270526439" expanded="true" signature="8979:9015" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -839,7 +864,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
+          <folding>
+            <element signature="e#324#350#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -871,7 +898,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78302">
           <caret line="4611" column="29" selection-start-line="4611" selection-start-column="29" selection-end-line="4611" selection-end-column="29" />
-          <folding />
+          <folding>
+            <marker date="1460950594156" expanded="true" signature="29235:29462" placeholder="SELECT tr.ob... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="36719:36841" placeholder="SELECT t.*, ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="61708:61785" placeholder="SELECT ${$di... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="70517:70560" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="70580:70711" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="71639:71808" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="71905:72079" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="72171:72231" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="72318:72383" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="83964:84040" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="85133:85208" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="86004:86058" placeholder="SELECT meta_... ${$wpdb-&gt;termmeta}" />
+            <marker date="1460950594156" expanded="true" signature="86685:86745" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="93935:94169" placeholder="SELECT ${$se... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="95377:95602" placeholder="SELECT tr.te... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="101788:101816" placeholder="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="104281:104436" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="105129:105358" placeholder="SELECT t.ter... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="109511:109612" placeholder="SELECT term_... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="110598:110717" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="111368:111539" placeholder="INSERT INTO ${$wpdb-&gt;term_relationships}... " />
+            <marker date="1460950594156" expanded="true" signature="114313:114408" placeholder="DELETE FROM " />
+            <marker date="1460950594156" expanded="true" signature="117343:117406" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="117472:117517" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="117689:117734" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="121427:121455" placeholder="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="122743:122898" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="124542:124617" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="131414:131500" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="139721:139988" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="142126:142460" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="142325:142387" placeholder="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1460950594156" expanded="true" signature="142550:142785" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="143634:143708" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="146037:146133" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="146493:146561" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="146826:146877" placeholder="SELECT t.* F... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="147584:147646" placeholder="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="147729:147814" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="148448:148508" placeholder="SELECT taxon... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="149221:149418" placeholder="SELECT tt.te... $" />
+            <marker date="1460950594156" expanded="true" signature="151122:151320" placeholder="SELECT tt.te... $" />
+            <marker date="1460950594156" expanded="true" signature="152049:152125" placeholder="SELECT * FRO... $" />
+            <marker date="1460950594156" expanded="true" signature="155168:155570" placeholder="SELECT m1.po... $" />
+            <marker date="1460950594156" expanded="true" signature="158254:158314" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -895,7 +968,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1462268066155" expanded="true" signature="1536:1651" placeholder="..." />
+            <marker date="1462268066155" expanded="true" signature="1599:1651" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -919,7 +995,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding />
+          <folding>
+            <element signature="e#152#2947#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -962,6 +1040,7 @@
         <state relative-caret-position="1819">
           <caret line="112" column="96" selection-start-line="112" selection-start-column="96" selection-end-line="112" selection-end-column="96" />
           <folding>
+            <element signature="e#6#99#0#PHP" expanded="false" />
             <marker date="1460950593891" expanded="true" signature="51927:51975" placeholder="SELECT p.ID ${$wpdb-&gt;posts}" />
             <marker date="1460950593891" expanded="true" signature="79439:79526" placeholder="..." />
           </folding>
@@ -973,8 +1052,224 @@
         <state relative-caret-position="3757">
           <caret line="221" column="22" selection-start-line="221" selection-start-column="22" selection-end-line="221" selection-end-column="22" />
           <folding>
-            <marker date="1462242756786" expanded="true" signature="5274:5378" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
-            <marker date="1462242756786" expanded="true" signature="5624:5717" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+            <marker date="1462267401456" expanded="true" signature="5274:5378" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+            <marker date="1462267401456" expanded="true" signature="5624:5717" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="161" column="77" selection-start-line="161" selection-start-column="77" selection-end-line="161" selection-end-column="77" />
+          <folding>
+            <marker date="1462270526439" expanded="true" signature="8979:9015" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/product-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#324#350#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/flexslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="98" selection-start-line="49" selection-start-column="98" selection-end-line="49" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/organize-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78302">
+          <caret line="4611" column="29" selection-start-line="4611" selection-start-column="29" selection-end-line="4611" selection-end-column="29" />
+          <folding>
+            <marker date="1460950594156" expanded="true" signature="29235:29462" placeholder="SELECT tr.ob... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="36719:36841" placeholder="SELECT t.*, ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="61708:61785" placeholder="SELECT ${$di... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="70517:70560" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="70580:70711" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="71639:71808" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="71905:72079" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="72171:72231" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="72318:72383" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="83964:84040" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="85133:85208" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="86004:86058" placeholder="SELECT meta_... ${$wpdb-&gt;termmeta}" />
+            <marker date="1460950594156" expanded="true" signature="86685:86745" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="93935:94169" placeholder="SELECT ${$se... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="95377:95602" placeholder="SELECT tr.te... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="101788:101816" placeholder="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="104281:104436" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="105129:105358" placeholder="SELECT t.ter... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="109511:109612" placeholder="SELECT term_... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="110598:110717" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="111368:111539" placeholder="INSERT INTO ${$wpdb-&gt;term_relationships}... " />
+            <marker date="1460950594156" expanded="true" signature="114313:114408" placeholder="DELETE FROM " />
+            <marker date="1460950594156" expanded="true" signature="117343:117406" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="117472:117517" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="117689:117734" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="121427:121455" placeholder="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="122743:122898" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="124542:124617" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="131414:131500" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="139721:139988" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="142126:142460" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="142325:142387" placeholder="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1460950594156" expanded="true" signature="142550:142785" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="143634:143708" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="146037:146133" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="146493:146561" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="146826:146877" placeholder="SELECT t.* F... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="147584:147646" placeholder="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="147729:147814" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="148448:148508" placeholder="SELECT taxon... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="149221:149418" placeholder="SELECT tt.te... $" />
+            <marker date="1460950594156" expanded="true" signature="151122:151320" placeholder="SELECT tt.te... $" />
+            <marker date="1460950594156" expanded="true" signature="152049:152125" placeholder="SELECT * FRO... $" />
+            <marker date="1460950594156" expanded="true" signature="155168:155570" placeholder="SELECT m1.po... $" />
+            <marker date="1460950594156" expanded="true" signature="158254:158314" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/nav-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10523">
+          <caret line="625" column="4" selection-start-line="625" selection-start-column="4" selection-end-line="625" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1462268066155" expanded="true" signature="1536:1651" placeholder="..." />
+            <marker date="1462268066155" expanded="true" signature="1599:1651" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/news-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/info-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/career-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding>
+            <element signature="e#152#2947#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/news.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/left-side-bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6256">
+          <caret line="368" column="65" selection-start-line="368" selection-start-column="65" selection-end-line="368" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <marker date="1460272441998" expanded="true" signature="19:218" placeholder="&lt;IfModule mod_rewrite.c&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/link-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="112" column="96" selection-start-line="112" selection-start-column="96" selection-end-line="112" selection-end-column="96" />
+          <folding>
+            <element signature="e#6#99#0#PHP" expanded="false" />
+            <marker date="1460950593891" expanded="true" signature="51927:51975" placeholder="SELECT p.ID ${$wpdb-&gt;posts}" />
+            <marker date="1460950593891" expanded="true" signature="79439:79526" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3757">
+          <caret line="221" column="22" selection-start-line="221" selection-start-column="22" selection-end-line="221" selection-end-column="22" />
+          <folding>
+            <marker date="1462267401456" expanded="true" signature="5274:5378" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+            <marker date="1462267401456" expanded="true" signature="5624:5717" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
           </folding>
         </state>
       </provider>
@@ -992,13 +1287,7 @@
         <state relative-caret-position="2754">
           <caret line="162" column="104" selection-start-line="162" selection-start-column="104" selection-end-line="162" selection-end-column="104" />
           <folding>
-            <marker date="1461465758766" expanded="true" signature="8670:8732" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="10094:10156" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="12476:12538" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="15066:15128" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="17246:17308" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="18992:19054" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="20948:20984" placeholder="..." />
+            <marker date="1462270526439" expanded="true" signature="8979:9015" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1007,7 +1296,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#324#350#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,7 +1322,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78302">
           <caret line="4611" column="29" selection-start-line="4611" selection-start-column="29" selection-end-line="4611" selection-end-column="29" />
-          <folding />
+          <folding>
+            <marker date="1460950594156" expanded="true" signature="29235:29462" placeholder="SELECT tr.ob... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="36719:36841" placeholder="SELECT t.*, ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="61708:61785" placeholder="SELECT ${$di... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="70517:70560" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="70580:70711" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="71639:71808" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="71905:72079" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="72171:72231" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="72318:72383" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="83964:84040" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="85133:85208" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="86004:86058" placeholder="SELECT meta_... ${$wpdb-&gt;termmeta}" />
+            <marker date="1460950594156" expanded="true" signature="86685:86745" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="93935:94169" placeholder="SELECT ${$se... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="95377:95602" placeholder="SELECT tr.te... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="101788:101816" placeholder="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="104281:104436" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="105129:105358" placeholder="SELECT t.ter... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="109511:109612" placeholder="SELECT term_... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="110598:110717" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="111368:111539" placeholder="INSERT INTO ${$wpdb-&gt;term_relationships}... " />
+            <marker date="1460950594156" expanded="true" signature="114313:114408" placeholder="DELETE FROM " />
+            <marker date="1460950594156" expanded="true" signature="117343:117406" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="117472:117517" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="117689:117734" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="121427:121455" placeholder="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="122743:122898" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="124542:124617" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="131414:131500" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="139721:139988" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="142126:142460" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="142325:142387" placeholder="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1460950594156" expanded="true" signature="142550:142785" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="143634:143708" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="146037:146133" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="146493:146561" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="146826:146877" placeholder="SELECT t.* F... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="147584:147646" placeholder="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="147729:147814" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="148448:148508" placeholder="SELECT taxon... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="149221:149418" placeholder="SELECT tt.te... $" />
+            <marker date="1460950594156" expanded="true" signature="151122:151320" placeholder="SELECT tt.te... $" />
+            <marker date="1460950594156" expanded="true" signature="152049:152125" placeholder="SELECT * FRO... $" />
+            <marker date="1460950594156" expanded="true" signature="155168:155570" placeholder="SELECT m1.po... $" />
+            <marker date="1460950594156" expanded="true" signature="158254:158314" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,7 +1392,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="55" selection-end-column="14" />
-          <folding />
+          <folding>
+            <marker date="1462268066155" expanded="true" signature="1536:1651" placeholder="..." />
+            <marker date="1462268066155" expanded="true" signature="1599:1651" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,7 +1419,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="102" selection-start-line="34" selection-start-column="102" selection-end-line="34" selection-end-column="102" />
-          <folding />
+          <folding>
+            <element signature="e#152#2947#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,6 +1464,7 @@
         <state relative-caret-position="1819">
           <caret line="112" column="96" selection-start-line="112" selection-start-column="96" selection-end-line="112" selection-end-column="96" />
           <folding>
+            <element signature="e#6#99#0#PHP" expanded="false" />
             <marker date="1460950593891" expanded="true" signature="51927:51975" placeholder="SELECT p.ID ${$wpdb-&gt;posts}" />
             <marker date="1460950593891" expanded="true" signature="79439:79526" placeholder="..." />
           </folding>
@@ -1133,8 +1476,8 @@
         <state relative-caret-position="3502">
           <caret line="206" column="25" selection-start-line="206" selection-start-column="9" selection-end-line="206" selection-end-column="25" />
           <folding>
-            <marker date="1462242756786" expanded="true" signature="5274:5378" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
-            <marker date="1462242756786" expanded="true" signature="5624:5717" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+            <marker date="1462267401456" expanded="true" signature="5274:5378" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+            <marker date="1462267401456" expanded="true" signature="5624:5717" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
           </folding>
         </state>
       </provider>
@@ -1152,13 +1495,7 @@
         <state relative-caret-position="2074">
           <caret line="122" column="41" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="41" />
           <folding>
-            <marker date="1461465758766" expanded="true" signature="8670:8732" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="10094:10156" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="12476:12538" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="15066:15128" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="17246:17308" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="18992:19054" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="20948:20984" placeholder="..." />
+            <marker date="1462270526439" expanded="true" signature="8979:9015" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1167,7 +1504,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#324#350#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1191,7 +1530,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78302">
           <caret line="4611" column="29" selection-start-line="4611" selection-start-column="29" selection-end-line="4611" selection-end-column="29" />
-          <folding />
+          <folding>
+            <marker date="1460950594156" expanded="true" signature="29235:29462" placeholder="SELECT tr.ob... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="36719:36841" placeholder="SELECT t.*, ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="61708:61785" placeholder="SELECT ${$di... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="70517:70560" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="70580:70711" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="71639:71808" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="71905:72079" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="72171:72231" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="72318:72383" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="83964:84040" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="85133:85208" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="86004:86058" placeholder="SELECT meta_... ${$wpdb-&gt;termmeta}" />
+            <marker date="1460950594156" expanded="true" signature="86685:86745" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="93935:94169" placeholder="SELECT ${$se... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="95377:95602" placeholder="SELECT tr.te... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="101788:101816" placeholder="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="104281:104436" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="105129:105358" placeholder="SELECT t.ter... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="109511:109612" placeholder="SELECT term_... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="110598:110717" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="111368:111539" placeholder="INSERT INTO ${$wpdb-&gt;term_relationships}... " />
+            <marker date="1460950594156" expanded="true" signature="114313:114408" placeholder="DELETE FROM " />
+            <marker date="1460950594156" expanded="true" signature="117343:117406" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="117472:117517" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="117689:117734" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="121427:121455" placeholder="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="122743:122898" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="124542:124617" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="131414:131500" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="139721:139988" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="142126:142460" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="142325:142387" placeholder="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1460950594156" expanded="true" signature="142550:142785" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="143634:143708" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="146037:146133" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="146493:146561" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="146826:146877" placeholder="SELECT t.* F... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="147584:147646" placeholder="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="147729:147814" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="148448:148508" placeholder="SELECT taxon... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="149221:149418" placeholder="SELECT tt.te... $" />
+            <marker date="1460950594156" expanded="true" signature="151122:151320" placeholder="SELECT tt.te... $" />
+            <marker date="1460950594156" expanded="true" signature="152049:152125" placeholder="SELECT * FRO... $" />
+            <marker date="1460950594156" expanded="true" signature="155168:155570" placeholder="SELECT m1.po... $" />
+            <marker date="1460950594156" expanded="true" signature="158254:158314" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1215,7 +1600,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="55" selection-end-column="14" />
-          <folding />
+          <folding>
+            <marker date="1462268066155" expanded="true" signature="1536:1651" placeholder="..." />
+            <marker date="1462268066155" expanded="true" signature="1599:1651" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1239,7 +1627,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="e#152#2947#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1274,6 +1664,7 @@
         <state relative-caret-position="1819">
           <caret line="112" column="96" selection-start-line="112" selection-start-column="96" selection-end-line="112" selection-end-column="96" />
           <folding>
+            <element signature="e#6#99#0#PHP" expanded="false" />
             <marker date="1460950593891" expanded="true" signature="51927:51975" placeholder="SELECT p.ID ${$wpdb-&gt;posts}" />
             <marker date="1460950593891" expanded="true" signature="79439:79526" placeholder="..." />
           </folding>
@@ -1285,8 +1676,8 @@
         <state relative-caret-position="3264">
           <caret line="192" column="35" selection-start-line="192" selection-start-column="35" selection-end-line="192" selection-end-column="35" />
           <folding>
-            <marker date="1462242756786" expanded="true" signature="5274:5378" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
-            <marker date="1462242756786" expanded="true" signature="5624:5717" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+            <marker date="1462267401456" expanded="true" signature="5274:5378" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+            <marker date="1462267401456" expanded="true" signature="5624:5717" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
           </folding>
         </state>
       </provider>
@@ -1480,13 +1871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/contact-page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -1516,6 +1900,7 @@
         <state relative-caret-position="1819">
           <caret line="112" column="96" selection-start-line="112" selection-start-column="96" selection-end-line="112" selection-end-column="96" />
           <folding>
+            <element signature="e#6#99#0#PHP" expanded="false" />
             <marker date="1460950593891" expanded="true" signature="51927:51975" placeholder="SELECT p.ID ${$wpdb-&gt;posts}" />
             <marker date="1460950593891" expanded="true" signature="79439:79526" placeholder="..." />
           </folding>
@@ -1526,22 +1911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10523">
           <caret line="625" column="4" selection-start-line="625" selection-start-column="4" selection-end-line="625" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/taxonomy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78302">
-          <caret line="4611" column="29" selection-start-line="4611" selection-start-column="29" selection-end-line="4611" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1577,62 +1946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/left-side-bar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/info-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/organize-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2737">
-          <caret line="161" column="77" selection-start-line="161" selection-start-column="77" selection-end-line="161" selection-end-column="77" />
-          <folding>
-            <marker date="1461465758766" expanded="true" signature="8670:8732" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="10094:10156" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="12476:12538" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="15066:15128" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="17246:17308" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="18992:19054" placeholder="..." />
-            <marker date="1461465758766" expanded="true" signature="20948:20984" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/news-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/flexslider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -1643,7 +1956,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/categories-images/categories-images.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="2856">
           <caret line="177" column="29" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="29" />
           <folding>
             <marker date="1457622334000" expanded="true" signature="1435:1862" placeholder="..." />
@@ -1675,6 +1988,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/career-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="54" selection-end-column="10" />
+          <folding>
+            <element signature="e#152#2947#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="275" column="31" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="31" />
+          <folding>
+            <marker date="1462267401456" expanded="true" signature="5274:5378" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+            <marker date="1462267401456" expanded="true" signature="5624:5717" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="4611" column="29" selection-start-line="4611" selection-start-column="29" selection-end-line="4611" selection-end-column="29" />
+          <folding>
+            <marker date="1460950594156" expanded="true" signature="29235:29462" placeholder="SELECT tr.ob... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="36719:36841" placeholder="SELECT t.*, ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="61708:61785" placeholder="SELECT ${$di... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="70517:70560" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="70580:70711" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="71639:71808" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="71905:72079" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="72171:72231" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="72318:72383" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="83964:84040" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="85133:85208" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="86004:86058" placeholder="SELECT meta_... ${$wpdb-&gt;termmeta}" />
+            <marker date="1460950594156" expanded="true" signature="86685:86745" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="93935:94169" placeholder="SELECT ${$se... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="95377:95602" placeholder="SELECT tr.te... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="101788:101816" placeholder="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="104281:104436" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="105129:105358" placeholder="SELECT t.ter... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="109511:109612" placeholder="SELECT term_... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="110598:110717" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="111368:111539" placeholder="INSERT INTO ${$wpdb-&gt;term_relationships}... " />
+            <marker date="1460950594156" expanded="true" signature="114313:114408" placeholder="DELETE FROM " />
+            <marker date="1460950594156" expanded="true" signature="117343:117406" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="117472:117517" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="117689:117734" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="121427:121455" placeholder="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="122743:122898" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="124542:124617" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="131414:131500" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="139721:139988" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="142126:142460" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="142325:142387" placeholder="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1460950594156" expanded="true" signature="142550:142785" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="143634:143708" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1460950594156" expanded="true" signature="146037:146133" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="146493:146561" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="146826:146877" placeholder="SELECT t.* F... ${$wpdb-&gt;terms}" />
+            <marker date="1460950594156" expanded="true" signature="147584:147646" placeholder="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="147729:147814" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="148448:148508" placeholder="SELECT taxon... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1460950594156" expanded="true" signature="149221:149418" placeholder="SELECT tt.te... $" />
+            <marker date="1460950594156" expanded="true" signature="151122:151320" placeholder="SELECT tt.te... $" />
+            <marker date="1460950594156" expanded="true" signature="152049:152125" placeholder="SELECT * FRO... $" />
+            <marker date="1460950594156" expanded="true" signature="155168:155570" placeholder="SELECT m1.po... $" />
+            <marker date="1460950594156" expanded="true" signature="158254:158314" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1683,56 +2094,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/product-page.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="95" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
-          <folding />
+        <state relative-caret-position="340">
+          <caret line="23" column="26" selection-start-line="17" selection-start-column="12" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <marker date="1462268066155" expanded="true" signature="1536:1651" placeholder="..." />
+            <marker date="1462268066155" expanded="true" signature="1599:1651" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/css/news.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/career-page.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/left-side-bar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="54" />
+        <state relative-caret-position="-746">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/realestate-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="275" column="32" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="32" />
+        <state relative-caret-position="567">
+          <caret line="43" column="94" selection-start-line="43" selection-start-column="94" selection-end-line="43" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/product-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
-            <marker date="1462242756786" expanded="true" signature="5274:5378" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
-            <marker date="1462242756786" expanded="true" signature="5624:5717" placeholder="Select * fro... ${$wpdb-&gt;posts}" />
+            <element signature="e#324#350#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/archive.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/info-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+        <state relative-caret-position="363">
+          <caret line="43" column="94" selection-start-line="43" selection-start-column="94" selection-end-line="43" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/news-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="43" column="94" selection-start-line="43" selection-start-column="94" selection-end-line="43" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/organize-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="134" selection-start-line="43" selection-start-column="134" selection-end-line="43" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="68" selection-end-column="34" />
           <folding>
-            <element signature="e#6#582#0#PHP" expanded="true" />
+            <marker date="1462270526439" expanded="true" signature="8979:9015" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/archive.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nhathanhphat/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding>
+            <marker date="1462270638444" expanded="true" signature="4483:4517" placeholder="..." />
+            <marker date="1462270638444" expanded="true" signature="4857:4890" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

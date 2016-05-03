@@ -1,15 +1,64 @@
 <?php get_header();
 $obj = get_queried_object();
 $cat_id = $obj->term_id;
-
+$content = get_post_from_taxonomy('san-pham', 'danh-muc-san-pham', $cat_id);
+$term = get_term($cat_id, 'danh-muc-san-pham');
+$title = $term->name;
+switch ($cat_id) {
+    case 5:
+        $cat_title = 'Sản phảm';
+        $link_cat = '/san-pham-du-an';
+        break;
+}
 ?>
     <div class="content-home-box">
-        <?php get_template_part( 'left-side-bar' ); ?>
+        <?php get_template_part('left-side-bar');
+        ?>
         <div class="content-box-right">
             <div class="content-news-box">
+                <div class="content-news-box-p">
+                    <div class="path-list-module">
+                        <span class="title-link-home"><a href="/">Trang chủ</a></span>
+                        <span class="title-link-item"><a href="<?php echo $link_cat;?>"><?php echo $cat_title; ?></a></span>
+                        <span class="title-link-item"><?php echo $title; ?></span>
+                    </div>
+                    <div class="c-n-b-title"><h2><?php echo $title; ?></h2></div>
+                    <table class="news">
+                        <?php foreach ($content as $obj) {
+                            $title = $obj->post_title;
+                            $link = get_permalink($obj->ID);
+                            $content = $obj->post_content;
+                            $image = wp_get_attachment_image_src(get_post_thumbnail_id($obj->ID), 'single-post-thumbnail');
+                            $image = $image[0];
+                            ?>
+                            <tr><?php if ($image) { ?>
+                                    <td>
+                                        <div class="news-l-image">
+                                            <div class="news-list-img-item">
+                                                <a href="<?php echo $link; ?>"><img title="<?php echo $title; ?>"
+                                                                                    src="<?php echo $image; ?>"></a>
+                                            </div>
+                                        </div>
+                                    </td> <?php } ?>
+                                <td <?php if (!$image) { ?> colspan="2" <?php } ?>>
+                                    <div class="news-title"><a href="<?php echo $link; ?>"><?php echo $title; ?></a>
+                                    </div>
+                                    <div class="news-l-content">
+                                        <div class="news-l-c-title"><a class="title-news-list" href=""></a>
+                                        </div>
+                                        <div class="news-l-c-NewsDepict">
+                                            &nbsp;<?php echo get_post_content($content); ?></div>
+                                        <div class="news-l-more"><a class="news-l-more-arrow"
+                                                                    href="/tu-van-doanh-nghiep/dieu-kien-va-thu-tuc-chuyen-nhuong-von-cong-ty-co-phan.htm">Chi
+                                                tiết</a></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        <?php } ?>
+                    </table>
 
+                </div>
             </div>
         </div>
-
     </div>
 <?php get_footer(); ?>

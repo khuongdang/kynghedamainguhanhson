@@ -1,3 +1,7 @@
+<?php
+$menu = wp_get_nav_menu_items(2, array());
+?>
+
 <script type="text/javascript">
     $(function () {
         $('.h-image-ga').flexslider({
@@ -96,14 +100,12 @@
         <div class="footer-bottom">
             <nav class="footer-nav">
                 <ul>
-                    <li><a href="/"> Trang chủ </a></li>
-                    <li><a href="/gioi-thieu.htm"> Giới thiệu </a></li>
-                    <li><a href="/dich-vu-luat-su.htm"> Dịch vụ luật sư </a></li>
-                    <li><a href="/dich-vu-cap-phep.htm"> Dịch vụ cấp phép </a></li>
-                    <li><a href="/dich-vu-cho-nguoi-nuoc-ngoai.htm"> Dịch vụ cho người nước ngoài </a></li>
-                    <li><a href="/hoi-dap-phap-luat.htm"> Hỏi đáp Pháp Luật </a></li>
-                    <li><a href="/van-ban-phap-luat.htm"> Văn bản pháp luật </a></li>
-                    <li><a href="/Lien-he.htm"> Liên hệ </a></li>
+<?php
+foreach ($menu as $obj) {
+    $link = $obj->url;
+    ?>
+                    <li><a href="<?php echo $link;?>"><?php echo $obj->title;?></a></li>
+                    <?php }?>
                 </ul>
             </nav>
 
