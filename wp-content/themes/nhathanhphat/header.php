@@ -80,7 +80,7 @@ $page = new Home_page();
             <header id="header">
                 <h1 id="logo">
                     <a title="logo" href=<?php echo get_site_url(); ?> target="_self"><img
-                            src="http://luattritam.com.vn/uploads/logo/logo1.png" width="267" height="97" border="0"
+                            src="<?php echo get_template_directory_uri();?>/images/logo.png" width="267" height="97" border="0"
                             alt="logo"></a>
                 </h1>
 
