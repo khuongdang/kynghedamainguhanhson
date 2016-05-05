@@ -138,7 +138,7 @@ border-radius: 5px;
 .main .cols .col { width:305px; float:left; margin-bottom:30px; }
 .main .cols .col:after { content:''; width: 100%; clear: both; }
 .main .cols .col + .col { padding-left: 20px; }
-.main .cols .col img { float:left; width:auto; height:auto; }
+.main .cols .col img { float:left; /*width:auto; height:auto;*/ }
 .main .cols .col-cnt { width:274px; clear:both; }
 
 .ca-home-head{ clear:both; }

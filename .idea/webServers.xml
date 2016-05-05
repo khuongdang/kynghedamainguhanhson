@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bde1587d-d554-41d9-835e-fdc9feca8563" name="kynghedamai" url="http://125.212.216.31">
+        <fileTransfer host="125.212.216.31" port="22" rootFolder="/home/kynghedamai/kynghedamainguhanhson.com" accessType="SFTP" password="dfdcdfc4dfc0dfdadf92dfccdfcfdf93df9adfd0dfcbdfe3dfc0dfccdfdedff5" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
