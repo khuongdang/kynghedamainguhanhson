@@ -143,7 +143,7 @@ function footer_display()
         'textarea_rows' => 15,
         'tabindex'      => 1
     );
-    wp_editor(esc_html( __(get_option('footer_content'))), 'footer_content', $settings);
+    wp_editor( __(get_option('footer_content')), 'footer_content', $settings);
 }
 
 function handle_logo_upload()

@@ -335,7 +335,7 @@ border-radius: 5px;
 }
 .content-news-box-p{ padding:0px 20px; }
 
-.home-title-news{ width:100%; height:30px; background: url(../Images/bg_head_left.png) repeat-x;
+.home-title-news{ width:100%; height:30px; background: url(../images/bg_head_left.png) repeat-x;
     -moz-border-radius-topleft: 5px;
     -webkit-border-top-left-radius: 5px;
     border-top-left-radius: 5px;

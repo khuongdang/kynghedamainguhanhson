@@ -1,5 +1,6 @@
 <?php
 $menu = wp_get_nav_menu_items(2, array());
+$footer_content = nl2br(get_option('footer_content'));
 ?>
 
 <script type="text/javascript">
@@ -119,21 +120,7 @@ foreach ($menu as $obj) {
             <div class="footer-cols">
 
                 <div class="col">
-
-                    <div class="info-footer">
-                        <strong>Công ty TNHH Luật Trí Tâm</strong><br/> Địa chỉ:&#160; Số 10, 342/47 đường Khương
-                        Đình, Phường Hạ Đình, Thanh Xuân, Hà Nội<br/> Email:&#160;<span
-                            style="color: rgb(0, 0, 255);"><span
-                                style="font-family: helvetica, arial, sans-serif; line-height: 15.36px; white-space: pre-wrap; background-color: rgb(254, 254, 254);">luattritam1@gmail.com</span></span><br/>
-                        Hotline: 0964-988.999&#160;&#160; -&#160;&#160; 0963.702.289<br/> Website: <a
-                            href="http://luattritam.com.vn">www.luattritam.com.vn</a><br/> <span
-                            style="color: rgb(128, 128, 128);"><em><span style="font-size: 11px;">© Copyright 2014 Luật Trí Tâm |Thiết kế bởi </span></em></span><em><span
-                                style="color: rgb(153, 153, 153);"><span style="font-size: 11px;"><a
-                                        title="Công ty thiết kế website" href="http://www.adcvietnam.net"><span
-                                            style="color: rgb(128, 128, 128);">Công ty thiết kế website</span></a></span><span
-                                    style="color: rgb(128, 128, 128);"><span
-                                        style="font-size: 11px;"> ADC</span></span></span></em>
-                    </div>
+                    <?php echo $footer_content; ?>
                 </div>
 
                 <div class="col">
