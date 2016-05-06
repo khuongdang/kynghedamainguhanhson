@@ -12,6 +12,7 @@ $link_tin_dau = get_permalink($tin_dau->ID);
 $img_tin_dau = wp_get_attachment_image_src(get_post_thumbnail_id($tin_dau->ID), 'single-post-thumbnail');
 $img_tin_dau = $img_tin_dau[0];
 $tintucother =  get_post_from_post_type($tin_dau->ID, 'tintuc');
+$img_hoatdong = get_images_from_gallery(2);
 ?>
             <!-- main -->
             <div class="main">
@@ -129,35 +130,16 @@ $tintucother =  get_post_from_post_type($tin_dau->ID, 'tintuc');
                         <div class="h-head-image"><h2>Hình ảnh hoạt động</h2></div>
                         <div class="h-image-ga">
                             <ul class="slides">
-
+                                <?php foreach ($img_hoatdong as $index => $obj) {
+                                    $index = $index + 1;
+                                    $img_url = get_site_url()."/wp-content/gallery/" . $obj->slug . "/" . $obj->filename;
+                                    ?>
                                 <li>
                                     <img alt="2" title="2"
-                                         src="http://luattritam.com.vn/uploads/image/woman-shopping-online-for-deals2.jpg"/>
-
-                                    <div class="flex-caption">2</div>
+                                         src="<?php echo $img_url;?>"/>
+                                    <div class="flex-caption"><?php echo $index;?></div>
                                 </li>
-
-                                <li>
-                                    <img alt="3" title="3"
-                                         src="http://luattritam.com.vn/uploads/image/anhhoatdong2.jpg"/>
-
-                                    <div class="flex-caption">3</div>
-                                </li>
-
-                                <li>
-                                    <img alt="Ảnh thông tin" title="Ảnh thông tin"
-                                         src="http://luattritam.com.vn/uploads/anhhoatdong1.jpg"/>
-
-                                    <div class="flex-caption">Ảnh thông tin</div>
-                                </li>
-
-                                <li>
-                                    <img alt="Ảnh hoạt động" title="Ảnh hoạt động"
-                                         src="http://luattritam.com.vn/uploads/image/anhhoatdong3.jpg"/>
-
-                                    <div class="flex-caption">Ảnh hoạt động</div>
-                                </li>
-
+                                <?php }?>
                             </ul>
                         </div>
                     </div>

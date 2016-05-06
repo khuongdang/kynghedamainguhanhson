@@ -41,8 +41,8 @@ article, aside, details, footer, header, menu, nav, section { display: block; }
 .b-c-lang{ float:right; color:#ababab; padding:0px 0px 0px 0px; vertical-align:middle; text-transform:none; font-size:12px; }
 .b-c-lang img{ vertical-align:middle; }
 .b-c-lang span{ margin:0px 10px 0px 10px; }
-.lang_i_vi{ background:url(../Images/icon_vi.png) no-repeat; color:#a7a7a7 !important; padding:0px 0px 0px 0px; display:inline-block; width:24px; height:18px; vertical-align:middle; }
-.lang_i_vi_en{ background:url(../Images/icon_en.png) no-repeat; color:#a7a7a7 !important; margin-left:6px; padding:0px 0px 0px 0px; display:inline-block; width:24px; height:18px; vertical-align:middle; text-align:left; }
+.lang_i_vi{ background:url(../images/icon_vi.png) no-repeat; color:#a7a7a7 !important; padding:0px 0px 0px 0px; display:inline-block; width:24px; height:18px; vertical-align:middle; }
+.lang_i_vi_en{ background:url(../images/icon_en.png) no-repeat; color:#a7a7a7 !important; margin-left:6px; padding:0px 0px 0px 0px; display:inline-block; width:24px; height:18px; vertical-align:middle; text-align:left; }
 
 .lineh17{ line-height:17px; }
 .h-news-view{ padding-bottom:4px; }
@@ -60,8 +60,8 @@ article, aside, details, footer, header, menu, nav, section { display: block; }
 
 /*MenuTopSub*/
 .menu_MenuTopSub{ display:inline; list-style-type:none; margin:0; padding:0; }
-.menu_MenuTopSub li{ float:left; margin:0px 0px 0px 0px; padding:0px 6px 0px 10px; background:url(../Images/dot.png) left center no-repeat; }
-.menu_MenuTopSub li a{ text-transform:none; font-size:11px; font-weight:normal; color:#666666; padding-left:8px; background:url(../Images/arr_right.png) left center no-repeat; }
+.menu_MenuTopSub li{ float:left; margin:0px 0px 0px 0px; padding:0px 6px 0px 10px; background:url(../images/dot.png) left center no-repeat; }
+.menu_MenuTopSub li a{ text-transform:none; font-size:11px; font-weight:normal; color:#666666; padding-left:8px; background:url(../images/arr_right.png) left center no-repeat; }
 .menu_MenuTopSub li a:hover{ color:#000; }
 .menu_MenuTopSub li:last-child{  }
 /*----------*/
@@ -353,7 +353,7 @@ border-radius: 5px;
 }
 .data-category-menu{ list-style-type:none; padding:8px 4px 8px 4px; margin:0px; }
 .data-category-menu li{ padding:0px 0px 0px 0px; margin:0px 0px 1px 0px; }
-.data-category-menu li.m_parent{ background:url(../Images/bg_left_menuP.png) repeat-x top left #f6f4f4; }
+.data-category-menu li.m_parent{ background:url(../images/bg_left_menuP.png) repeat-x top left #f6f4f4; }
 .data-category-menu li.m_parent.select, .data-category-menu li.m_parent.active{ background-color:#f20000; background-position:0; }
 /*.data-category-menu li.m_parent.active a:first-child{ color:#fff; }*/
 
@@ -392,7 +392,7 @@ border-radius: 5px;
 .adv-right{ clear:both; }
 .path-list-module{ height:18px; clear:both; padding:8px 0px 10px 0px; font-size:11px; font-weight: bold; border-bottom:1px solid #d9d9d9; }
 .title-link-home {display: inline; padding: 0 8px 0 0px; /*background:url(../Images/icon_home.png) no-repeat 0px 3px;*/ }
-.title-link-item {background: url("../Images/arrow_left_link.png") no-repeat scroll 0px 4px transparent;display: inline;padding: 0 8px 0 12px; }
+.title-link-item {background: url("../images/arrow_left_link.png") no-repeat scroll 0px 4px transparent;display: inline;padding: 0 8px 0 12px; }
 .title-link-home a{ color: #7b7b7b;}
 .title-link-item a{ color: #7b7b7b;}
 .title-link-home a:hover, .title-link-item a:hover{color: #000;}
@@ -454,7 +454,7 @@ border-radius: 5px;
 .i-gallery-category a{ color:#fff; }
 .i-gallery-category a:hover{ color:#c2c2c2; }
 .i-gallery .image-share-b{ position:absolute; bottom:5px; right:1px; display:none; }
-.image-share-b .i-s-btn{ background: url("../Images/f_share_ga.png") no-repeat; padding:13px; }
+.image-share-b .i-s-btn{ background: url("../images/f_share_ga.png") no-repeat; padding:13px; }
 .image-share-b .i-s-btn.mh{ display:block; }
 /*download*/
 .table_download{ font-size:12px; border-collapse:collapse; margin:12px 0px;}
@@ -470,7 +470,7 @@ border-radius: 5px;
     margin-top: 0px;
 }
 .q-row-container .item .question {
-    background:url(../Images/faq_icon.png) no-repeat left 1px #fff;
+    background:url(../images/faq_icon.png) no-repeat left 1px #fff;
     border-radius: 6px 6px 6px 6px;
     color: #5a5a5a;
     font-style: italic;
@@ -493,19 +493,19 @@ border-radius: 5px;
 /*Site Map*/
 .sitemap{ overflow:hidden; padding:0px 0px 50px 0px; }
 .l1-sitemap {
-    background: url("../Images/folder.gif") no-repeat scroll 4px 14px transparent;
+    background: url("../images/folder.gif") no-repeat scroll 4px 14px transparent;
     padding-left: 24px;
     padding-top: 10px;
 }
 .T-sitemap {
-    background: url("../Images/T.gif") repeat-y scroll 0 0 transparent;
+    background: url("../images/T.gif") repeat-y scroll 0 0 transparent;
     padding:2px 0px 2px 24px;
 }
 .I-sitemap {
-    background: url("../Images/I.gif") repeat-y scroll 0 0 transparent;
+    background: url("../images/I.gif") repeat-y scroll 0 0 transparent;
 }
 .L-sitemap {
-    background: url("../Images/L.gif") repeat-y scroll 0 0 transparent;
+    background: url("../images/L.gif") repeat-y scroll 0 0 transparent;
     margin-left: 25px;
     padding-left: 35px;
 }

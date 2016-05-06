@@ -15,10 +15,37 @@ if ($post_slug == 'sanphamduan') {
 }
 
 $news = get_post_from_post_type(null, 'tintuc', 'post_date DESC', 6);
+switch ($post_slug) {
+    case "gioithieu":
+        $title_top = 'Giới thiệu';
+    break;
+    case "tintuc":
+        $title_top = 'Tin tức';
+    break;
+    case "sanphamduan":
+        $title_top = 'Sản phẩm - Dự Án';
+    break;
+    case "cocautochu":
+        $title_top = 'Cơ cấu tổ chức';
+    break;
+    case "muabannhadat":
+        $title_top = 'Mua bán nhà đất';
+    break;
+    case "muabannhadat":
+        $title_top = 'Mua bán nhà đất';
+        break;
+    case "tintuc":
+        $title_top = 'Tin tức';
+    break;
+    case "tuyendung":
+        $title_top = 'Tuyển dụng';
+    break;
+}
+
 ?>
 <div class="content-box-left">
     <div class="left-menu">
-        <div class="home-title-news"><span><?php echo $post->post_title; ?></span></div>
+        <div class="home-title-news"><span><?php echo $title_top;?></span></div>
         <div class="home-left-content">
             <ul id="left-nav" class="data-category-menu">
                 <?php foreach ($content as $obj) {

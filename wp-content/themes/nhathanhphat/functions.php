@@ -287,3 +287,12 @@ function get_post_from_taxonomy($post_type, $taxonomy = 'category', $term_id){
     return $result;
 }
 
+function get_images_from_gallery($gallery = null) {
+    global $wpdb;
+    $qry = "SELECT p.*, g.slug FROM wp_ngg_pictures as p LEFT JOIN wp_ngg_gallery AS g" .
+        " ON p.galleryid = g.gid" .
+        " WHERE p.galleryid = $gallery";
+    $result = $wpdb->get_results( $qry );
+    return $result;
+}
+

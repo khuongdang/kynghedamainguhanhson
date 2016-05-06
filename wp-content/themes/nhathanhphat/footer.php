@@ -1,6 +1,8 @@
 <?php
 $menu = wp_get_nav_menu_items(2, array());
 $footer_content = nl2br(get_option('footer_content'));
+$img_logo = get_images_from_gallery(1);
+
 ?>
 
 <script type="text/javascript">
@@ -51,38 +53,17 @@ $footer_content = nl2br(get_option('footer_content'));
 </div>
 </div>
 
-
 <div class="contractor-container">
     <div class="shell">
         <div class="contractor-box">
             <ul id="scroller">
-
-                <li><a rel="nofollow" href="http://viettel.vn"><img width="120" height="64" title="Logo Viettel"
-                                                                    src="http://luattritam.com.vn/uploads/image/y-nghia-logo-Viettel.jpg"/></a>
+                <?php foreach ($img_logo as $obj) {
+                $img_url = get_site_url()."/wp-content/gallery/" . $obj->slug . "/" . $obj->filename;
+                ?>
+                <li><a target="_blank" rel="nofollow" href="<?php echo $obj->description;?>">
+                    <img width="120" height="64" title="/<?php echo $obj->image_slug?>" src="<?php echo $img_url;?>"/></a>
                 </li>
-
-                <li><a rel="nofollow" href="http://www.baoviet.com.vn/Trang-chu"><img width="120" height="64"
-                                                                                      title="BHXH"
-                                                                                      src="http://luattritam.com.vn/uploads/image/logo-BHXH.png"/></a>
-                </li>
-
-                <li><a rel="nofollow" href="http://"><img width="120" height="64" title="accor"
-                                                          src="http://luattritam.com.vn/uploads/248229_524697207577089_1183500224_n.jpg"/></a>
-                </li>
-
-                <li><a rel="nofollow" href="http://"><img width="120" height="64" title="VIB"
-                                                          src="http://luattritam.com.vn/uploads/image/logo-ngan-hang-VIB.jpg"/></a>
-                </li>
-
-                <li><a rel="nofollow" href="http://"><img width="120" height="64" title="trung nguyen cf"
-                                                          src="http://luattritam.com.vn/uploads/image/Logo-Trungnguyen-thuonghieu.jpg"/></a>
-                </li>
-
-                <li><a rel="nofollow" href="http://www.vietinbank.vn/web/home/vn/index.html"><img width="120"
-                                                                                                  height="64"
-                                                                                                  title="Vietinbank"
-                                                                                                  src="http://luattritam.com.vn/uploads/image/logo-vietinbank.jpg"/></a>
-                </li>
+                <?php }?>
             </ul>
         </div>
         <div class="link-drop">
@@ -121,6 +102,7 @@ foreach ($menu as $obj) {
 
                 <div class="col">
                     <?php echo $footer_content; ?>
+                    <span style="color: #808080;"><em><span style="font-size: 11px;">© Copyright <?php echo date(Y);?> Nhà Thành Phát</span></em></span>
                 </div>
 
                 <div class="col">
@@ -129,13 +111,13 @@ foreach ($menu as $obj) {
 
                             <ul>
                                 <li><a class="facebook-ico"
-                                       href="https://www.facebook.com/pages/Lu%E1%BA%ADt-Tr%C3%AD-T%C3%A2m/1461637360785644"><span>&#160;</span>Facebook</a>
+                                       href="javascript:void(0);"><span>&#160;</span>Facebook</a>
                                 </li>
-                                <li><a class="twitter-ico" href="https://twitter.com/LuatTriTam"><span>&#160;</span>Twitter</a>
+                                <li><a class="twitter-ico" href="javascript:void(0);"><span>&#160;</span>Twitter</a>
                                 </li>
-                                <li><a class="myspace-ico" href="https://plus.google.com/+LuattritamVn/about"><span>&#160;</span>Google+</a>
+                                <li><a class="myspace-ico" href="javascript:void(0);"><span>&#160;</span>Google+</a>
                                 </li>
-                                <li><a class="rss-feed-ico" href="http://luattritam.com.vn"><span>&#160;</span>Youtube</a>
+                                <li><a class="rss-feed-ico" href="javascript:void(0);"><span>&#160;</span>Youtube</a>
                                 </li>
                             </ul>
                             <div class="cl">&nbsp;</div>
