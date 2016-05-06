@@ -183,59 +183,20 @@ $page = new Home_page();
     <!-- slider -->
     <div class="slider-container">
         <div class="slider-holder">
-
+            <?php
+            $img_home = get_images_from_gallery(3);
+            ?>
             <div class="slider flexslider">
                 <ul class="slides">
-
+                    <?php foreach ($img_home as $obj) {
+                        $img_url = get_site_url()."/wp-content/gallery/" . $obj->slug . "/" . $obj->filename;
+                        ?>
                     <li>
-                        <div class="img-holder"><img src="http://luattritam.com.vn/uploads/4moi.jpg" width="" height=""
-                                                     class="img-qcngang" border="0" alt="Luat doanh nghiep"></div>
-                    </li>
-
-                    <li>
-                        <div class="img-holder"><a title="dang ky nhan hieu hang hoa" href=# target="_self"><img
-                                    class="img-qcngang" src="http://luattritam.com.vn/uploads/2fdd.jpg" width="1348"
-                                    height="376" border="0" alt="dang ky nhan hieu hang hoa"></a></div>
-                    </li>
-
-                    <li>
-                        <div class="img-holder"><a title="bat dong san" href=# target="_self"><img class="img-qcngang"
-                                                                                                   src="http://luattritam.com.vn/uploads/1.jpg"
-                                                                                                   width="1348"
-                                                                                                   height="376"
-                                                                                                   border="0"
-                                                                                                   alt="bat dong san"></a>
+                        <div class="img-holder">
+                            <img src="<?php echo $img_url;?>" width="" height="" class="img-qcngang" border="0" alt="Luat doanh nghiep">
                         </div>
                     </li>
-
-                    <li>
-                        <div class="img-holder"><img src="http://luattritam.com.vn/uploads/7.jpg" width="" height=""
-                                                     class="img-qcngang" border="0" alt="tranh tung tai toa"></div>
-                    </li>
-
-                    <li>
-                        <div class="img-holder"><img src="http://luattritam.com.vn/uploads/image/slide2.jpg"
-                                                     width="1348" height="376" class="img-qcngang" border="0"
-                                                     alt="hon nhan gia dinh"></div>
-                    </li>
-
-                    <li>
-                        <div class="img-holder"><img src="http://luattritam.com.vn/uploads/image/dichvucapphep.jpg"
-                                                     width="" height="" class="img-qcngang" border="0"
-                                                     alt="dich vu cap phep"></div>
-                    </li>
-
-                    <li>
-                        <div class="img-holder"><img src="http://luattritam.com.vn/uploads/image/6.jpg" width=""
-                                                     height="" class="img-qcngang" border="0" alt="giay phep lao dong">
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="img-holder"><img src="http://luattritam.com.vn/uploads/image/3.jpg" width=""
-                                                     height="" border="0" alt="cap so do"></div>
-                    </li>
-
+                    <?php }?>
                 </ul>
             </div>
         </div>

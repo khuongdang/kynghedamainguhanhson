@@ -125,9 +125,9 @@ foreach ($menu as $obj) {
                     </div>
                 </div>
 
-                <div class="col">
+                <!--<div class="col">
                     <div class="f-menu-stat">Số lượt truy cập: <b>566353</b> <br/> Số người online: <b>70</b></div>
-                </div>
+                </div>-->
                 <div class="cl">&nbsp;</div>
             </div>
             <!-- end of footer-cols -->
@@ -145,11 +145,7 @@ foreach ($menu as $obj) {
             <table class="listsuportright" width="100%">
                 <tbody>
                 <tr>
-
-                    <td style="padding:5px;"><b>Luật Trí Tâm 01</b><br> <span>0964-988.999</span><br></td>
-                </tr>
-                <tr>
-                    <td style="padding:5px;"><b>Luật Trí Tâm 02</b><br> <span>0983.348.379</span><br></td>
+                    <td style="padding:5px;"><b>Nhà Thành Phát</b><br> <span style="color:red; font-weight: bold;">0908 39 89 92</span><br></td>
                 </tr>
                 </tbody>
             </table>
