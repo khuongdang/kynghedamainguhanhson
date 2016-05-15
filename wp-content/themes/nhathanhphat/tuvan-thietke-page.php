@@ -1,11 +1,11 @@
 <?php
 /*
-Template Name: News
+Template Name: tuvan
 */
 get_header();
 global $post;
 $title = $post->post_title;
-$content = get_post_from_post_type(null, 'tintuc');
+$content = get_post_from_post_type(null, 'tuvan');
 ?>
     <div class="content-home-box">
         <?php get_template_part('left-side-bar');
@@ -14,14 +14,13 @@ $content = get_post_from_post_type(null, 'tintuc');
             <div class="content-news-box">
                 <div class="content-news-box-p">
                     <div class="path-list-module"><span class="title-link-home"><a href="/">Trang chủ</a>
-                                                </span>
-                        <span class="title-link-item"><?php echo $title; ?></span></div>
+                                                </span> <span class="title-link-item"><?php echo $title; ?></span></div>
                     <div class="c-n-b-title"><h2><?php echo $title; ?></h2></div>
                     <table class="news">
                         <?php foreach ($content as $obj) {
                             $title = $obj->post_title;
                             $link = get_permalink($obj->ID);
-                            $content = trimstr($obj->post_content, 200);
+                            $content = $obj->post_content;
                             $image = wp_get_attachment_image_src(get_post_thumbnail_id($obj->ID), 'single-post-thumbnail');
                             $image = $image[0];
                             ?>
@@ -40,7 +39,7 @@ $content = get_post_from_post_type(null, 'tintuc');
                                         <div class="news-l-c-title"><a class="title-news-list" href=""></a>
                                         </div>
                                         <div class="news-l-c-NewsDepict">
-                                            &nbsp;<?php echo strip_tags(get_post_content($content)); ?></div>
+                                            &nbsp;<?php echo get_post_content($content); ?></div>
                                         <div class="news-l-more"><a class="news-l-more-arrow"
                                                                     href="<?php echo $link; ?>">Chi
                                                 tiết</a></div>

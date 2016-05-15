@@ -1,11 +1,12 @@
 <?php
 global $post;
+$img_hoatdong = get_images_from_gallery(2);
 $post_slug = $post->post_name;
 if ($post->post_type != 'page') {
     $post_slug = $post->post_type;
 }
 $post_slug = str_replace("-", "", $post_slug);
-if ($post_slug == 'sanphamduan') {
+if ($post_slug == 'sanphamduan' || $post_slug == 'sanpham') {
     $taxonomy = 'danh-muc-san-pham';
     $content = $terms = get_terms($taxonomy, array(
         'hide_empty' => 0,
@@ -15,6 +16,7 @@ if ($post_slug == 'sanphamduan') {
 }
 
 $news = get_post_from_post_type(null, 'tintuc', 'post_date DESC', 6);
+
 switch ($post_slug) {
     case "gioithieu":
         $title_top = 'Giới thiệu';
@@ -73,11 +75,11 @@ switch ($post_slug) {
     <ul class="left-news">
         <?php if (!empty($news)) { ?>
             <?php foreach ($news as $obj) {
-                $title = $obj->post_title;
-            }
+                $title_ = $obj->post_title;
+                $link = get_permalink($obj->ID);
             ?>
-            <li><a title="<?php echo $title; ?>"
-                   href=""><?php echo $title; ?></a></li>
+            <li> <a title="<?php echo $title_; ?>" href="<?php echo $link; ?>"><?php echo $title_; ?></a></li>
+        <?php } ?>
         <?php } ?>
     </ul>
 
@@ -85,32 +87,15 @@ switch ($post_slug) {
         <div class="left-head gt"><span>Hình ảnh hoạt động</span></div>
         <div class="h-image-ga">
             <ul class="slides">
+                <?php foreach ($img_hoatdong as $index => $obj) {
+                $index = $index + 1;
+                $img_url = get_site_url()."/wp-content/gallery/" . $obj->slug . "/" . $obj->filename;
+                ?>
                 <li style="width: 100%; float: left; margin-right: -100%; display: none;">
                     <img alt="2" title="2"
-                         src="http://luattritam.com.vn//uploads/image/woman-shopping-online-for-deals2.jpg">
-
+                         src="<?php echo $img_url;?>">
                 </li>
-
-                <li style="width: 100%; float: left; margin-right: -100%; display: none;">
-                    <img alt="3" title="3" src="http://luattritam.com.vn//uploads/image/anhhoatdong2.jpg">
-
-
-                </li>
-
-                <li style="width: 100%; float: left; margin-right: -100%; display: none;">
-                    <img alt="Ảnh thông tin" title="Ảnh thông tin"
-                         src="http://luattritam.com.vn//uploads/anhhoatdong1.jpg">
-
-
-                </li>
-
-                <li style="width: 100%; float: left; margin-right: -100%; display: list-item;">
-                    <img alt="Ảnh hoạt động" title="Ảnh hoạt động"
-                         src="http://luattritam.com.vn//uploads/image/anhhoatdong3.jpg">
-
-
-                </li>
-
+                <?php }?>
             </ul>
             <ul class="flex-direction-nav">
                 <li><a class="prev" href="#">Previous</a></li>

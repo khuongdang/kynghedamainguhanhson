@@ -7,6 +7,7 @@ $content = apply_filters('the_content', $content);
 $content = str_replace(']]>', ']]&gt;', $content);
 $current_post_type = get_post_type($id);
 $other_content = get_post_from_post_type($id, $current_post_type, null, 6);
+
 switch ($current_post_type) {
     case "gioithieu":
         $page_title = 'Giới thiệu';
@@ -15,6 +16,22 @@ switch ($current_post_type) {
     case "tuyendung":
         $page_title = 'Tuyển dụng';
         $link = '/tuyen-dung';
+        break;
+    case "tintuc":
+        $page_title = 'Tin tức';
+        $link = '/tin-tuc';
+        break;
+    case "cocautochuc":
+        $page_title = 'Cơ cấu tổ chức';
+        $link = '/co-cau-to-chuc';
+        break;
+    case "muabannhadat":
+        $page_title = 'Mua bán nhà đất';
+        $link = '/mua-ban-nha-dat';
+        break;
+    case "san-pham":
+        $page_title = 'Sản phẩm';
+        $link = '/san-pham-du-an';
         break;
 }
 ?>

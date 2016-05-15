@@ -86,43 +86,11 @@ $img_hoatdong = get_images_from_gallery(2);
                         </ul>
                     </div>
 
-
                     <div class="h-news-bot-box">
-                        <div class="h-head-news"><h2>Tư vấn pháp luật</h2></div>
+                        <div class="h-head-news"><h2>Tư vấn thi công, thiết kế</h2></div>
                         <ul>
-
-                            <li><a href="/luat-doanh-nghiep/co-duoc-dat-tru-so-cong-ty-tai-khu-chung-cu-khong.htm"
-                                   title="Có được đặt trụ sở công ty tại khu chung cư  không ?">Có được đặt trụ sở công
-                                    ty tại khu chung cư không ?</a></li>
-
-                            <li><a href="/luat-doanh-nghiep/quy-dinh-ve-tam-nhap-tai-xuat-hang-hoa.htm"
-                                   title="Quy định về tạm nhập, tái xuất hàng hóa">Quy định về tạm nhập, tái xuất hàng
-                                    hóa</a></li>
-
-                            <li><a href="/luat-doanh-nghiep/dieu-kien-gi-de-cong-ty-duoc-mua-hoa-don-vat.htm"
-                                   title="Điều kiện gì để công ty được mua hóa đơn VAT">Điều kiện gì để công ty được mua
-                                    hóa đơn VAT</a></li>
-
-                            <li><a href="/luat-doanh-nghiep/dieu-kien-de-dat-tru-so-cong-ty.htm"
-                                   title="Điều kiện để đặt Trụ sở công ty">Điều kiện để đặt Trụ sở công ty</a></li>
-
-                            <li><a href="/luat-doanh-nghiep/thu-tuc-tam-ngung-hoat-dong-cong-ty.htm"
-                                   title="Thủ tục tạm ngừng hoạt động công ty">Thủ tục tạm ngừng hoạt động công ty</a>
-                            </li>
-
-                            <li><a href="/hoi-dap-phap-luat/quy-dinh-viet-kieu-mua-nha-tai-viet-nam.htm"
-                                   title="Quy định Việt kiều mua nhà tại Việt Nam">Quy định Việt kiều mua nhà tại Việt
-                                    Nam</a></li>
-
-                            <li>
-                                <a href="/hoi-dap-phap-luat/nguoi-viet-nam-va-nuoc-ngoai-duoc-mang-bao-nhieu-tien-mat-bang-dong-viet-nam-hoac-ngoai-te-khi-xuat-nhap-canh.htm"
-                                   title="Người Việt Nam và nước ngoài được mang bao nhiêu tiền mặt bằng đồng Việt Nam hoặc ngoại tệ khi xuất nhập cảnh?">Người
-                                    Việt Nam và nước ngoài được mang bao nhiêu tiền mặt bằng đồng Việt Nam hoặc ngoại tệ
-                                    khi xuất nhập cảnh?</a></li>
-
                             <li><a href="/hoi-dap-phap-luat/linh-vuc-tranh-tung.htm" title="Lĩnh vực tranh tụng">Lĩnh
                                     vực tranh tụng</a></li>
-
                         </ul>
                     </div>
 
@@ -155,9 +123,6 @@ $img_hoatdong = get_images_from_gallery(2);
                     </div>
                     <div class="cl">&nbsp;</div>
                 </section>
-
-
             </div>
             <!-- end of main -->
-
 <?php get_footer(); ?>
