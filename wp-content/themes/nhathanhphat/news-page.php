@@ -5,7 +5,7 @@ Template Name: News
 get_header();
 global $post;
 $title = $post->post_title;
-$content = get_post_from_post_type(null, 'tintuc');
+$content = get_post_from_post_type(null, 'tintuc', 'ID DESC');
 ?>
     <div class="content-home-box">
         <?php get_template_part('left-side-bar');

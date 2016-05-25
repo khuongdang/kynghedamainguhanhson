@@ -20,7 +20,7 @@ $content = get_post_from_post_type(null, 'muabannhadat');
                         <?php foreach ($content as $obj) {
                             $title = $obj->post_title;
                             $link = get_permalink($obj->ID);
-                            $content = $obj->post_content;
+                            $content = trimstr(strip_tags($obj->post_content), 100);
                             $image = wp_get_attachment_image_src(get_post_thumbnail_id($obj->ID), 'single-post-thumbnail');
                             $image = $image[0];
                             ?>

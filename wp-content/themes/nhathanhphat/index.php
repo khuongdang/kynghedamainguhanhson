@@ -3,6 +3,8 @@ $muabannha = get_post_from_post_type(null, 'muabannhadat');
 $taxonomy = 'danh-muc-san-pham';
 $terms = get_terms($taxonomy, array(
     'hide_empty' => 0,
+    'orderby'  => 'ID',
+    'order'    => 'DESC'
 ) );
 shuffle ($terms);
 $tintuc = get_post_from_post_type(null, 'tintuc', 'ID DESC');
@@ -11,7 +13,7 @@ $title_tin_dau = $tin_dau->post_title;
 $link_tin_dau = get_permalink($tin_dau->ID);
 $img_tin_dau = wp_get_attachment_image_src(get_post_thumbnail_id($tin_dau->ID), 'single-post-thumbnail');
 $img_tin_dau = $img_tin_dau[0];
-$tintucother =  get_post_from_post_type($tin_dau->ID, 'tintuc');
+$tintucother =  get_post_from_post_type($tin_dau->ID, 'tintuc', 'ID DESC');
 $img_hoatdong = get_images_from_gallery(2);
 ?>
             <!-- main -->

@@ -281,8 +281,12 @@ function get_post_from_taxonomy($post_type, $taxonomy = 'category', $term_id){
                 array(
                     'taxonomy' => $taxonomy,
                     'field' => 'term_id',
-                    'terms' => $term_id)
-            ))
+                    'terms' => $term_id
+                )
+            ),
+            'orderby' => 'ID',
+            'order' => 'DESC',
+            )
     );
     return $result;
 }
